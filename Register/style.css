@@ -1,0 +1,84 @@
+    /* import font */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    body {
+        background-color: #344a72;
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        line-height: 1.8;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    #container {
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 30px;
+    }
+    
+    .form-wrap {
+        background: #29966c;
+        padding: 20px 20px;
+        border: 1px solid #463535;
+        border-radius: 1cm;
+    }
+    
+    .form-wrap h1,
+    .form-wrap h1 {
+        text-align: center;
+    }
+    
+    .form-wrap .form-group {
+        margin-top: 15px;
+    }
+    
+    .form-wrap .form-group label {
+        display: flex;
+    }
+    
+    .form-wrap .form-group input {
+        width: 100%;
+        padding: 8px;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    .form-wrap button {
+        background-color: #344a72;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        color: #ffffff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .form-wrap button:hover {
+        background: #333333;
+    }
+    
+    .form-wrap .button-text {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    
+    footer {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    footer a {
+        color: #29966c;
+    }

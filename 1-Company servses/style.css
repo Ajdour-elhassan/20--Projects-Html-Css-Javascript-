@@ -1,0 +1,148 @@
+/* import font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4em;
+}
+
+
+/* Navbar Menu */
+
+.Navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #333;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.Navbar li {
+    /* float: left; */
+    display: inline-block;
+}
+
+.Navbar li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    display: block;
+    padding: 15px 20px;
+}
+
+.Navbar li a:hover {
+    background-color: #29966c;
+    color: #f4f4f4;
+}
+
+.Navbar li a:active {
+    background-color: hotpink;
+}
+
+
+/* End of Navbar */
+
+
+/* brand */
+
+#brand {
+    max-width: 960px;
+    margin: 30px auto;
+    background: #333;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#brand h3 {
+    color: #f4f4f4;
+    text-align: center;
+}
+
+
+/* End of brand */
+
+
+/* items Alaignment */
+
+#price {
+    width: 32%;
+    background: #333;
+    padding: 20px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    align-items: center;
+    margin: 3rem auto;
+}
+
+#price h3 {
+    color: #f4f4f4;
+}
+
+#price a {
+    text-decoration: none;
+    color: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+    background: #5f9e4b;
+}
+
+#price a:hover {
+    background-color: #aa61d4;
+}
+
+#price a:active {
+    background-color: #3ba5a5;
+}
+
+
+/* End of items Alaignment */
+
+.container {
+    max-width: 960px;
+    margin: 30px auto;
+}
+
+.box {
+    background: #f4f4f4;
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.box p {
+    /* text Align */
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+}
+
+#box-2 {
+    float: left;
+    width: 68%;
+}
+
+#box-3 {
+    float: right;
+    width: 30%;
+}
+
+.clr {
+    clear: both;
+}
+
+footer {
+    background: #29966c;
+    border: solid 1px #f4f4f4;
+    padding: 20px;
+}
+
+footer p {
+    color: #f4f4f4;
+    text-align: center;
+}
