@@ -34,6 +34,7 @@
             color: #fff;
             overflow: auto;
         }
+        /* Each container */
         
         .container {
             margin: auto;
@@ -100,18 +101,186 @@
         }
         
         .text-primary {
-            color: #f3b407;
+            color: #f7c08a;
         }
         
         .btn {
             display: inline-block;
             border-radius: 15px;
-            background: #f3b407;
+            background: #f7c08a;
             padding: 10px;
             color: #333;
             font-size: 15px;
+            cursor: pointer;
         }
         
         .btn:hover {
             background-color: rgb(27, 93, 180);
+        }
+        /* Home info */
+        
+        #Home-info {
+            height: 400px;
+        }
+        
+        #Home-info .info-img {
+            float: left;
+            width: 50%;
+            background: url("./img/photo-1.jpg") no-repeat;
+            min-height: 100%;
+        }
+        
+        #Home-info .info-content {
+            width: 50%;
+            float: right;
+            height: 100%;
+            text-align: center;
+            padding: 50px 30px;
+            overflow: hidden;
+        }
+        
+        .bg-dark {
+            background: #333;
+            color: #fff;
+        }
+        
+        #Home-info .info-content p {
+            padding-bottom: 30px;
+        }
+        /* Features */
+        
+        .box {
+            float: left;
+            width: 33.3%;
+            padding: 50px;
+            text-align: center;
+        }
+        
+        .box i {
+            padding-bottom: 10px;
+        }
+        
+        .bg-primary {
+            color: #333;
+            background: #f7c08a;
+        }
+        
+        .bg-light {
+            background: #fff;
+            color: #333;
+        }
+        /* footer */
+        
+        .clr {
+            clear: both;
+        }
+        
+        #main-footer {
+            padding: 20px;
+            text-align: center;
+            background: rgb(0, 0, 0);
+            color: #fff;
+        }
+        /* About */
+        /* About Page */
+        
+        #about-info {
+            background: rgb(211, 182, 182);
+            padding-top: 15px;
+        }
+        
+        #about-info .info-right {
+            float: right;
+            width: 50%;
+            min-height: 100%;
+        }
+        
+        #about-info .info-right img {
+            display: block;
+            width: 70%;
+            margin: auto;
+            border-radius: 50%;
+        }
+        
+        #about-info .info-left {
+            float: left;
+            width: 50%;
+            min-height: 100%;
+        }
+        /* Padding */
+        
+        .py-1 {
+            padding: 10px 0;
+        }
+        
+        .py-2 {
+            padding: 10px 0;
+        }
+        
+        .py-3 {
+            padding: 10px 0;
+        }
+        
+        .li-heading {
+            font-size: 40px;
+        }
+        /* cutomer-test */
+        
+        #cutomer-test {
+            height: 600PX;
+            background: url("./img/test-bg.jpg") no-repeat center center/cover;
+            padding-top: 40px;
+        }
+        
+        #cutomer-test h2 {
+            text-align: center;
+            padding-top: 15px;
+            color: #fff;
+        }
+        
+        #cutomer-test .testimional img {
+            width: 100px;
+            border-radius: 13px;
+            border-radius: 50%;
+            /* We flaot img to the left */
+            float: left;
+            margin-right: 40px;
+        }
+        
+        #cutomer-test .testimional {
+            padding: 20px;
+            margin-bottom: 40px;
+            border-radius: 13px;
+            opacity: 0.8;
+        }
+        /* Contact Form */
+        
+        #contact-from {
+            margin-top: 10px;
+        }
+        
+        #contact-from .form-group {
+            margin-bottom: 20px;
+        }
+        
+        #contact-from label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        #contact-from input,
+        #contact-from textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #333;
+        }
+        
+        #contact-from input:focus,
+        #contact-from textarea:focus {
+            outline: none;
+            border-color: #f7c08a;
+        }
+        
+        #contact-from textarea {
+            height: 200px;
         }

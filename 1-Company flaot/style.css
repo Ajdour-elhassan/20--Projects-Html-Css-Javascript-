@@ -23,8 +23,7 @@ html {
 }
 
 .Navbar li {
-    /* float: left; */
-    display: inline-block;
+    display: flex;
 }
 
 .Navbar li a {
@@ -68,15 +67,21 @@ html {
 
 /* items Alaignment */
 
+#price_content {
+    max-width: 960px;
+    margin: auto;
+}
+
 #price {
     width: 32%;
     background: #333;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 15px;
     display: inline-block;
     border-radius: 10px;
     align-items: center;
     margin: 3rem auto;
+    text-align: center;
 }
 
 #price h3 {
