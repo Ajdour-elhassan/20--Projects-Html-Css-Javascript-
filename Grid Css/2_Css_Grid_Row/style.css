@@ -1,0 +1,36 @@
+/* import font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+
+/* Grid Row */
+
+.grid {
+    display: grid;
+    /*  grid-template-columns: repeat(2, 1fr) */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 3fr;
+    grid-gap: 1rem;
+}
+
+.item {
+    padding: 3rem;
+    border: #333 solid 1px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: rgba(38, 100, 57, 0.533);
+    border-radius: 1rem;
+}

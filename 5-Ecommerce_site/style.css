@@ -3,8 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    /*  */
 }
 
 html {
@@ -17,6 +16,7 @@ a {
 }
 
 #heading-l {
+    margin-top: 3rem;
     text-align: center;
 }
 
@@ -40,6 +40,9 @@ a {
     /* Go over navbar */
     z-index: 1;
     padding: 1rem;
+    /*  */
+    margin: 0px;
+    padding: 0px;
 }
 
 #navbar ul {
@@ -70,10 +73,12 @@ a {
 #content {
     max-width: 960px;
     margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
 }
 
 .container {
-    margin-top: 7rem;
+    margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-gap: 1rem;
@@ -83,9 +88,6 @@ a {
     border: solid 1px #333;
     padding: 1rem;
     text-align: center;
-    color: #fff;
-    background: #333;
-    border-radius: 1rem;
 }
 
 #product img {
@@ -110,8 +112,38 @@ a {
 /* Footer */
 
 #footer {
+    margin-top: 5rem;
     padding: 1rem 0;
     background: #333;
     color: #fff;
     text-align: center;
 }
+
+
+/* End of footer */
+
+
+/* Product description */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 1rem;
+}
+
+.product-detail {
+    border: 1px solid #333;
+    padding: 2rem;
+}
+
+.image-product {
+    display: flex;
+    align-items: center;
+}
+
+#btns {
+    margin-top: 3rem;
+}
+
+
+/* Product description */

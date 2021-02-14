@@ -1,0 +1,50 @@
+/* import font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Grid Column */
+
+.grid {
+    display: grid;
+    /* grid-template-columns: 200px auto 200px; */
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: 1fr 3fr 1fr;
+    /* Space Column In Between */
+    grid-gap: 1rem;
+}
+
+.item {
+    padding: 3rem;
+    border: #333 solid 1px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: rgba(38, 100, 57, 0.533);
+    border-radius: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+}
+
+section {
+    border: #333 solid 1px;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+aside {
+    border: #333 solid 1px;
+    padding: 1.5rem 0;
+    text-align: center;
+}
